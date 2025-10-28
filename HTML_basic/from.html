@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบฟอร์มลงทะเบียน</title>
+    <style>
+        form{
+            border: solid blue;
+        
+        }
+        input{
+            border: solid green;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">ย้อนกลับ</a>
+    <h2 align="center">แบบฟอร์มลงทะเบียน</h2>
+    
+    <form >
+        <div>
+            <label for="firstname">ชื่อจริง</label>
+            <input type="text" name="firstname" placeholder="้ป้อนชื่อจริงของคุณ" required>
+        </div>
+        <div>
+            <label for="lastname">นามสกุล</label>
+            <input type="text" name="lastname" placeholder="ป้อนนามสกุลของคุณ" required >
+        </div>
+        <div>
+            <label for="email">อีเมล</label>
+            <input type="email" name="email" placeholder="กรุณาป้อนอีเมล" required>
+        </div>
+        <div>
+            <label for="password">รหัสผ่าน</label>
+            <input type="password" name="password" placeholder="ป้อนรหัสผ่านของคุณ" required>
+        </div>
+        <div >
+            <label for="address">ที่อยู่</label>
+            <textarea type="text" name="" cols="20" rows="3"></textarea>
+        </div>
+        <div>
+            <label for="age">อายุ</label>
+            <input type="number" name="age" min="0" max="10" value="2">
+        </div>
+        <div>
+            <label for="age">อายุ</label>
+            <input type="number" name="age" min="0" max="10" value="10" readonly>
+            <!-- ไม่ให้ขยับค่า -->
+        </div>
+        <div>
+            <label for="birth">วันเกิด</label>
+            <input type="date" name="birthday" placeholder="กรุณากรอกวันเกิด">
+        </div>
+        <div>
+            <label for="tel">เบอร์โทร</label>
+            <input type="tel" name="tel" placeholder="กรุณากรอกเบอร์">
+
+        </div>
+        <div>
+            <label for="likecolor">สีที่ชอบ</label>
+            <input type="color" name="likecolor" placeholder="เลือกสีที่ชอบ">
+        </div>
+            <div>
+            <label for="likenumber">ช่วงตัวเลข</label>
+            <input type="range" name="rangnumber" placeholder="เลือกช่วงที่เหมาะสมสำหรับคุณ" value="1">
+        </div>
+        <div>
+            <label for="edu">ระดับการศึกษา</label>
+            <select name="edu" id="" required>
+                <option value="ปริญญาตรี" selected>ปริญญาตรี</option>
+                 <option value="ปริญญาโท">ปริญญาโท</option>
+                  <option value="ปริญญาเอก">ปริญญาเอก</option>
+            </select>
+        </div>
+        <div>
+            <label for="sex">เพศ</label>
+            <input type="radio" name="gender" > เพศชาย
+            <input type="radio" name="gender" > เพศหญิง
+            <input type="radio" name="gender" > กำหนดเอง
+            
+        </div>
+    <div>
+        <label for="like">สิ่งที่ชอบ</label>
+        <input type="checkbox" name="fav" > เขียนเว็บ
+        <input type="checkbox" name="fav" > สร้างเกม
+        <input type="checkbox" name="fav" > ระบบสื่อสาร
+        <input type="checkbox" name="fav" > คุยกับลูกค้า
+        <input type="checkbox" name="fav" > วางแผน
+    </div>
+    <div>
+        <label for="file">แนบเอกสาร</label>
+        <input type="file" name="" id="" required>
+    </div>
+    <div>
+        <label for="url">แนบลิ้งก์</label>
+        <input type="url" name="" id="">
+    </div>
+    <div>
+
+        <button type="submit">บันทึกข้อมูล</button>
+    </div>
+    <div>
+       
+        <button type="reset">ล้างข้อมูล</button>
+    </div>
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+    
+</body>
+</html>

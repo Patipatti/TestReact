@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablepage</title>
+</head>
+<body>
+    <a href="index.html"> กลับหน้าแรก </a>
+    <h4 align="center">รายการสินค้า</h4>
+    <table border="2" bgcolor="gray" align="center" cellpadding="4" cellspacing="4">
+            <!-- border กำหนดความหนา bgcolor กำหนดสี align=กำหนดตำแหน่ง cellpadding=ระยะพื้นที่ว่างด้านใน cellspaccing ระยะพื้นที่ว่างด้านนอก -->
+        <thead>
+            <th>ภาพสินค้า</th>
+            <th>ชื่อสินค้า</th>
+            <th>ราคาสินค้า</th>
+            <th>ดำเนินการสั่งซื้อ</th>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>
+                    <img src="image/nissan.jpg" alt="" width="150px" height="140px">
+                </td>
+                <td>nissan gtr5</td>
+                <td>20,000,000 bath</td>
+                <td rowspan="2">
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <img src="image/catprogramming.jpg" alt="" width="150px" height="180px">
+                </td>
+                <td>catprogramming</td>
+                <td>50,000,000 bath</td>
+               
+            </tr>
+            <!-- colspan="" การรวมคอลัมแนวนอน rowspan="" การรวมคอลลัมแนวตั้ง -->
+            <tr bgcolor="clam">
+                <td>
+                   <img src="image/catbored.jpg" alt="" width="150px" height="150px">
+                </td>
+                <td>cat bored</td>
+                <td >50,000,000 bath</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tfoot>
+            <tr align="center">
+                <!-- center ทำให้อยู่ตรงกลาง right lef -->
+                <td colspan="4"><strong>ราคารวม : 120 ล้านบาท</strong></td>
+            </tr>
+            </tfoot>
+
+        </tbody>
+    </table>
+</body>
+</html>
