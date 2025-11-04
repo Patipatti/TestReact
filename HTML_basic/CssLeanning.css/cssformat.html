@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css format</title>
+    <style>
+        /* Embed*/
+        p.cv{
+            font-style: italic;
+        }
+    </style>
+    <!-- /*External*/ -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html">ย้อนกลับ</a>
+    <!-- inline -->
+    <p style="color: aliceblue; font-weight: 200;">computer engineer</p>
+    <p class="cv">civil engineer</p>
+
+    <p class="mc">machine engineer</p>
+    <br>
+    <h1>หน่วยแบบตายตัว</h1>
+    <p>px 1px = 0.75pt
+        <br>
+        <br>
+    pt 1pt=1/72 inchs
+    <br>
+    <br>
+    cm เซนติเมตร
+    <br>
+    <br>
+    mm มิลลิเมตร
+    <br>
+    <br>
+    in inches 1 in = 96px = 2.54cm
+    <br>
+    <br>
+    pc picas (1pc=12pt) </p>
+    <h1>หน่วยแบบอัตรส่วน</h1>
+    <p>
+    <strong>em</strong> = การอ้างอิงขนาด element parent ที่ใกล้ที่สุด ใช้ในการดำเนินการจำนวนเท่า 
+    <br>
+    เช่น หากใช้ 10px 2em คือ 2 เท่าของขนาด  20px
+    <br>
+    1.4em=1.4px
+    <br>
+    1em = 10px
+    <br>
+    <br>
+    <strong>rem</strong> กำหนดขนาดโดยอ้างอิงกับ root element ปกติ font-size จะอยู่ที่ 16px
+    <br>
+    <br>
+   <strong>vw</strong>  1% หรือ 1/100 ของ viewport width - width ของ browser viewport เท่ากับ 750px ค่า 1vw =7.5px
+    <br>
+    <br>
+   <strong>vh</strong> 1% หรือ 1/100 ของ viewport height  เท่ากับ 900px ค่า 1vh = 96px
+    <br>
+    <br>
+   <strong>vmin,vmax</strong> กำหนดค่าต่ำสุด และค่าสูงสุดของ viewport
+    </p>
+
+    <p style="font-size: 3pc;">CSS3</p>
+</body>
+</html>
