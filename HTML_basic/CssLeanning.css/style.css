@@ -3,3 +3,13 @@ p.mc{
     color: aqua;
 }
 /* เผื่อเขานำสไตล์เราไปเขียนต่อก็ต้อวคอมเม้นให้เป็นด้วย */
+
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap');
+
+p.m1{
+    font-family: "Charmonman", cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Playpen+Sans+Thai:wght@100..800&display=swap');
+p#ef1{
+     font-family: "Playpen Sans Thai", cursive;
+}
